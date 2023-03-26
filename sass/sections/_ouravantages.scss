@@ -1,0 +1,38 @@
+.ouradvantage__item__icon {
+    width: 69px;
+    height: 70px;
+    fill: $primary-white-color;
+}
+
+.ouradvantages__item__punter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 120px;
+    margin-bottom: 30px;
+    width: 270px;
+    background-color: $backgraund-gris;
+}
+
+
+.ouradvantages__list {
+    display: flex;
+    gap: 30px;
+}
+
+.ouradvantages__item {
+    flex-basis: cal((100%-100%)/4);
+}
+
+.ouradvantages__item__subtitle {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: $primary-black-color;
+}
+
+.ouradvantages__item__paragraph {
+    font-size: 14px;
+    color: $primary-text-color;
+    line-height: 24px;
+}
